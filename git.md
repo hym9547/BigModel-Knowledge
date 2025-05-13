@@ -16,4 +16,7 @@
 - ```git push alias:``` 将本地git仓库提交内容推送到远程仓库
 - ```git pull alias branch:``` 获取远程仓库的更新，自动与本地内容合并
 - ```git fetch alias:``` 获取远程仓库的更新,不合并本地内容
+- ```git branch:``` 查看当前本地分支
+- ```git merge know/main:``` 从远程仓库know中获取main分支内容合并到本地
+  - 添加```--allow-unrelated-histories``` 表示两个无任何记录的独立项目强行合并
 
