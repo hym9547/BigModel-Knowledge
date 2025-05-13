@@ -1,0 +1,19 @@
+- ```git init:``` 初始化仓库
+- ```git status -s:```  查看当前缓存文件 
+  - **红色**表示修改
+  - **绿色**表示暂存
+- ```git check-ignore -v filename:```  查看指定文件是否被忽略 
+  - 忽略则输出：.gitignore:6:*.txt      filename
+  - 未忽略则无任何输出
+- ```git add filename:``` 将filename添加到暂存（无返回）
+- ```git add .:``` 将所有**修改、新增、删除**等变化内容的文件进行暂存
+- ```git commit -m "[message]":``` 将暂存区内容进行**提交**
+  - message表示本地修改的注释
+- ```git remote add alias url:``` 连接远程仓库
+  - **alias** 表示连接名称
+  - **url** 表示远程仓库地址
+- ```git remote -v:``` 查看连接远程仓库的信息
+- ```git push alias:``` 将本地git仓库提交内容推送到远程仓库
+- ```git pull alias branch:``` 获取远程仓库的更新，自动与本地内容合并
+- ```git fetch alias:``` 获取远程仓库的更新,不合并本地内容
+
