@@ -11,7 +11,6 @@ pipreqs natural-sql-7b --encoding=utf-8 --force
 ```
 
 
-
 # 数据
 ### 数据加载器
 ##### 1、 torch的DataLoader 

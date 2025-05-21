@@ -1,4 +1,5 @@
 **！！！ 文件暂存区不影响任何操作，千万不要取消暂存**
+## 本地仓库
 - ```git init:``` 初始化仓库
 - ```git status -s:```  查看文件变动状态 
   - **红色**表示只修改，还未进入暂存区
@@ -10,13 +11,14 @@
 - ```git add .:``` 将所有**修改、新增、删除**等变化内容的文件添加到暂存区
 - ```git commit -m "[message]":``` 将暂存区文件进行**提交**到本地仓库
   - message表示本地修改的注释
+
+## 远程仓库
 - ```git remote add alias url:``` 连接远程仓库
   - **alias** 表示连接名称
   - **url** 表示远程仓库地址   
-- ```git remote add alias url:``` 连接远程仓库
 - ```git remote -v:``` 查看连接远程仓库的信息
-- ```git push alias branch:``` 将本地git仓库提交内容推送到远程仓库的分支中
-- ```git pull alias branch:``` 获取远程仓库的更新，自动与本地内容合并
+- ```git push alias branch:``` 将本地git仓库提交内容推送到远程仓库的具体分支中
+- ```git pull alias branch:``` 获取远程仓库的分支内容，自动与本地内容合并
 - ```git fetch alias:``` 获取远程仓库的更新,不合并本地内容
 - ```git branch:``` 查看当前本地分支
 - ```git merge know/main:``` 从远程仓库know中获取main分支内容合并到本地
