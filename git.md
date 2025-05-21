@@ -17,6 +17,7 @@
   - **alias** 表示连接名称
   - **url** 表示远程仓库地址   
 - ```git remote -v:``` 查看连接远程仓库的信息
+- ```git remote set-url alias new-url:``` 修改远程仓库地址
 - ```git push alias branch:``` 将本地git仓库提交内容推送到远程仓库的具体分支中
 - ```git pull alias branch:``` 获取远程仓库的分支内容，自动与本地内容合并
 - ```git fetch alias:``` 获取远程仓库的更新,不合并本地内容
